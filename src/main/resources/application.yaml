@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kotlin_spring?currentSchema=hamburgueria
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none # Ou update, create, etc. dependendo da sua necessidade
+server:
+  port: 8081
